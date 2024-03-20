@@ -1,5 +1,5 @@
 # See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/ubuntu/.devcontainer/base.Dockerfile
-FROM mcr.microsoft.com/vscode/devcontainers/base:0-ubuntu-22.04
+FROM mcr.microsoft.com/vscode/devcontainers/base:0-ubuntu-22.04@sha256:814c65dc3d0dfb74ca2ac521397917c2efcade108c495378e005b48152249b15
 
 # Select desired TAG from https://github.com/argoproj/argo-cd/releases
 ENV ARGOCD_VERSION=v2.10.1
