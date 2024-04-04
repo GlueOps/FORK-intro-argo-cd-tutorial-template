@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: quay.io/akuity/argo-cd-learning-assets/guestbook
-  tag: 0.1.0
+  tag: 0.1.0@sha256:35c9e5211be0b107e4d6b443878d5175689bd136566fecd482a7b30c49a14b84
   pullPolicy: IfNotPresent
 
 service:
